@@ -1,0 +1,15 @@
+.checkout-container {
+  display: flex;
+  flex-direction: row;
+
+  .form-container,
+  .product_table {
+    margin: 5px;
+    border: 1px solid #ced4da;
+    padding: 15px 10px;
+   
+  }
+
+}
+
+
