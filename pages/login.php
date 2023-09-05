@@ -69,7 +69,6 @@ if (isset($_GET['code'])) {
         $_SESSION["property_price"] = "";
       }
     }
-
     header('location: index.php');
     exit;
   }
@@ -80,6 +79,7 @@ include "../pages/includes/mobileNavBar.php";
 include "../pages/includes/navBar.php";
 
 
+/* --------------------------------------------------------------------------------------------------------------- */
 
 $errors = [];
 

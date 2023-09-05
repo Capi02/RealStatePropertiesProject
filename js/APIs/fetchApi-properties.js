@@ -11,7 +11,7 @@ try {
     properties.forEach(property => {
       const container = document.querySelector("#properties_container")
 
-      const { property_id, id, city, country, price, address, beds, baths, path_1 } = property;
+      const { property_id, city, country, price, address, beds, baths, path_1 } = property;
 
       function capitalizeS(str) {
         const strCapitalized = str.charAt(0).toUpperCase() + str.slice(1) //This function helps to capitalize the first letter of a string
